@@ -1,7 +1,7 @@
 # Проект по автоматизации мобильного тестирования для мобильной версии сайта [Wikipedia](https://ru.wikipedia.org/wiki/)
 
 <p align="center"> 
-<img alt="habrCareer" height= "200" width="200" src="media/logo/Wikipedia-logo.png">
+<img alt="habrCareer" height= "250" width="250" src="media/logo/Wikipedia-logo.png">
 
 
 ## :clipboard: Содержание:
