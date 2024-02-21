@@ -1,5 +1,7 @@
 package tests;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -15,6 +17,8 @@ import static io.qameta.allure.Allure.step;
 @Tag("mobile_test")
 public class MobileSearchTest extends TestBase {
     @Test
+    @Epic("Mobile Tests")
+    @Owner("Fazlyakhmetov D.A.")
     @DisplayName("Проверка выпадающего списка при вводе в поле поиска")
     void checkSearchFieldShouldBeEqualTextTest() {
         step("Сделать поисковой запрос", () -> {
@@ -29,6 +33,8 @@ public class MobileSearchTest extends TestBase {
     }
 
     @Test
+    @Epic("Mobile Tests")
+    @Owner("Fazlyakhmetov D.A.")
     @DisplayName("Проверка открытия первой страницы поискового запроса")
     void successfulSearchTest() {
         step("Открываем строку поиска", () ->
@@ -51,6 +57,8 @@ public class MobileSearchTest extends TestBase {
                         .shouldBe(visible));
         }
     @Test
+    @Epic("Mobile Tests")
+    @Owner("Fazlyakhmetov D.A.")
     @DisplayName("Проверка корректного ввода и совпадений введенного текста в выпадающем списке")
     void checkDescriptionTest() {
         step("Отправляем запрос в википедии", () -> {
